@@ -1,0 +1,23 @@
+@import './base.css';
+
+@font-face {
+  font-family: "OsloSans";
+  src: url('/infopage/src/assets/OsloSansOffice-Regular.ttf');
+}
+#app {
+  color: white;
+  font-family: "OsloSans";
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
