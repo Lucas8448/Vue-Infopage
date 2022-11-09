@@ -20,15 +20,19 @@ import { RouterLink, RouterView } from 'vue-router'
 </template>
 
 <style scoped>
+@font-face {
+  font-family: "OsloSans";
+  src: url('./assets/OsloSansOffice-Regular.ttf');
+}
 .navbar {
   background-color: #333;
   overflow: hidden;
-  height: 10vh;
+  height: 8vh;
   width: 100vw;
 }
 
 .logo {
-  height: 10vh;
+  height: 8vh;
   width: 8vw;
   float: left;
 }
@@ -42,18 +46,15 @@ import { RouterLink, RouterView } from 'vue-router'
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 3.5vh 3.5vh;
+  padding: 3vh 3vh;
   text-decoration: none;
-  font-size: 17px;
-  height: 10vh;
+  font-size: 1.2rem;
+  height: 8vh;
 }
-
-
 .router-link-exact-active {
   background-color: hsla(160, 100%, 37%, 1) ;
   cursor: pointer;
 }
-
 .routerview {
   height: 90vh;
   width: 100vw;

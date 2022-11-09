@@ -5,5 +5,6 @@
 <style scoped>
 .title {
   text-align: center;
+  font-size: 2rem;
 }
 </style>
