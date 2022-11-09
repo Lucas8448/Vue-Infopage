@@ -46,9 +46,9 @@ import { RouterLink, RouterView } from 'vue-router'
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 3vh 3vh;
+  padding: 2.5vh 2.5vh;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 2vh;
   height: 8vh;
 }
 .router-link-exact-active {
